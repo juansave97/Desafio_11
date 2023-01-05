@@ -1,7 +1,7 @@
 
 const getDataHome = (req, res) => {
     const data = {
-        title: "Desafio Nº11 - Mocks y Normalización",
+        title: "Desafio Nº12- Login",
         content: "test"
     }
     return res.render(`index`, data);
